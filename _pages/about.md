@@ -11,9 +11,9 @@ redirect_from:
 
  You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads! -->
 Statistical Sampling
-$\bullet$ Monte Carlo & Quasi-Monte Carlo: Langevin Monte Carlo method, constrained sampling.
+- Monte Carlo & Quasi-Monte Carlo: Langevin Monte Carlo method, constrained sampling.
 Diffusion Model
-$\bullet$ Score-based diffusion model: score matching, acceleration and convergence analysis.
+- Score-based diffusion model: score matching, acceleration and convergence analysis.
 
 Publications
 ======
@@ -33,10 +33,10 @@ Internships
 ======
 <!-- 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section -->
+2. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
+3. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
+4. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+5. Check status by going to the repository settings, in the "GitHub pages" section -->
 
 Lingjun Investment(2023.11 – 2024.2)
 $\bullet$ Factor Mining: built momentum factors from the data of volume and open interest for opening and closing a position, built weight factors for position management in specific strategies.
