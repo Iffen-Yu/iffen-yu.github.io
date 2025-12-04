@@ -26,7 +26,7 @@ author:
   avatar           : "photo_yu.jpg" # filename of your profile photo placed in /assets/images/
   name             : "Yifeng Yu"
   pronouns         : # example: "she/her"  
-  bio              : "I'm Yifeng Yu, a Ph.D. student at Tsinghau University. My research focuses on diffusion model."
+  bio              : "I'm Yifeng Yu, a Ph.D. student at Tsinghua University. My research focuses on diffusion model."
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   uri              : # URL
