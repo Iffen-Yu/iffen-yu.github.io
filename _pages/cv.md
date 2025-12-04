@@ -11,26 +11,19 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Statistics, Tsinghua University, 2022 to present
+* B.S. in Pure and Applied Mathematics, Tsinghua University, 2018
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Sep. 2025 to present: Research Associate
+  * City University of Hong Kong
+  * Supervisor: Lu Yu
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Nov. 2023 - Feb. 2024: Quant Researcher Internship
+  * Lingjun Investment
+  * Duties included: Factor Mining. built momentum factors from the data of volume and open interest for opening and closing a position, built weight factors for position management in specific strategies.
+  * Supervisor: Jonathan Liu
   
 Skills
 ======
