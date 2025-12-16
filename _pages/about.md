@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Research Interest"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -10,13 +10,21 @@ redirect_from:
 
  You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads! -->
 
-Statistical Sampling
+**Hi, I am Yifeng Yu.**
 
-- Monte Carlo & Quasi-Monte Carlo: Langevin Monte Carlo method, constrained sampling.
+I am currently a **PhD student** in Department of Mathematical Science at **Tsinghua University** and a **Research Associate** in Data Science at **City University of HongKong**. My research interest lies at the intersection of **Statistical Sampling** and  **Generative AI** .
 
-Diffusion Model
+Specifically, I am fascinated by the theoretical foundations of  **Score-based Diffusion Models** . My goal is to improve the convergence speed and sampling quality of these models through advanced mathematical tools.
 
-- Score-based diffusion model: score matching, acceleration and convergence analysis.
+Recently, I have been working on the Wasserstein convergence analysis of score-based models, and I am excited to present our latest work at  **NeurIPS 2025** .
+
+Beyond theory, I have extensive experience in  **Quantitative Finance** , applying Deep Learning models (like Transformers and GANs) to decrypt financial market dynamics during my internships at top-tier hedge funds.
+
+### News
+
+* **[Dec 2025]** I attended NeurIPS 2025 at San Diego!
+* **[Sep 2025]** I joined City University of Hong Kong as a Research Associate, my supervisor is Prof. Lu Yu.
+* 
 
 Publications
 ============
