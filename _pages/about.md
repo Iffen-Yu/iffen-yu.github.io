@@ -24,23 +24,3 @@ Beyond theory, I have extensive experience in  **Quantitative Finance** , applyi
 
 * **[Dec 2025]** I attended NeurIPS 2025 at San Diego!
 * **[Sep 2025]** I joined City University of Hong Kong as a Research Associate, my supervisor is Prof. Lu Yu.
-* 
-
-Publications
-============
-
-Yifeng Yu, Lu Yu, “Advancing Wasserstein Convergence Analysis of Score-Based Models: Insights from Discretization and Second-Order Acceleration”. Advances in Neural Information Processing Systems (NeurIPS), 2025.
-
-Yifeng Yu, Lu Yu, “Randomized Midpoint Method for Log-Concave Sampling under Constraints”. Submitted
-
-Internships
-===========
-
-Lingjun Investment(2023.11 – 2024.2)
-
-- Factor Mining: built momentum factors from the data of volume and open interest for opening and closing a position, built weight factors for position management in specific strategies.
-
-China Futures(2022.11 – 2023.4)
-
-- Factor Rewriting: Numpy vectorization of python code with partial autocorrelation coefficient, continuous wavelet transform, sample entropy, etc., used Numba to achieve code acceleration.
-  Reproduction and Research of Neural Network Strategies: reproduced AlphaNet and CvxpyLayers neural network and apply to low-frequency trading in CTA, reproduce CNN of price pattern recognition, reproduce Generative Adversarial Network (GAN/WGAN) to simulate financial time series data.
