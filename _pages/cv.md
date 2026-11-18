@@ -23,7 +23,7 @@ Sep. 2018–Jul. 2022
 
 ## Research
 
-My research focuses on the mathematical foundations of diffusion models: accelerated sampling, convergence analysis, and score estimation. I also work on diffusion LLM training and inference, speculative decoding, and multimodal generation and inference acceleration.
+My research interests are **diffusion models**, **diffusion language models**, and **inference optimization**. More specifically, I work on the mathematical foundations of diffusion models, training and inference for diffusion language models, and speculative decoding algorithms.
 
 **City University of Hong Kong — Research Assistant**<br>
 Sep. 2025–Feb. 2026 · Department of Data Science
@@ -54,14 +54,14 @@ Feb.–Jul. 2026 · AI Infrastructure R&D
 
 {% assign conference_papers = site.publications | where: "category", "conferences" | sort: "publication_year" | reverse %}
 {% for paper in conference_papers %}
-- **[{{ paper.title }}]({{ paper.url | relative_url }})** — {{ paper.venue }}, {{ paper.publication_year }}. {{ paper.author_note }}.
+- **[{{ paper.title }}]({{ paper.url | relative_url }})** — {{ paper.venue }}, {{ paper.publication_year }}. {{ paper.author_note }}.{% if paper.arxivurl %} [arXiv]({{ paper.arxivurl }}){% endif %}
 {% endfor %}
 
 ### Manuscripts under Review
 
 {% assign manuscripts = site.publications | where: "category", "manuscripts" %}
 {% for paper in manuscripts %}
-- **[{{ paper.title }}]({{ paper.url | relative_url }})** — {{ paper.publication_status }} {{ paper.venue }}. {{ paper.author_note }}.
+- **[{{ paper.title }}]({{ paper.url | relative_url }})** — {{ paper.publication_status }} {{ paper.venue }}. {{ paper.author_note }}.{% if paper.arxivurl %} [arXiv]({{ paper.arxivurl }}){% endif %}
 {% endfor %}
 
 ## Selected Project

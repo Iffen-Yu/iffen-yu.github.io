@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Yifeng Yu / Personal Academic Website"
 title_separator          : "-"
 name                     : &name "Yifeng Yu"
-description              : &description "Yifeng Yu, Statistics Ph.D. student at Tsinghua University. Research in diffusion models, sampling theory, and efficient generative AI."
+description              : &description "Yifeng Yu, Statistics Ph.D. student at Tsinghua University. Research in diffusion models, diffusion language models, and inference optimization."
 url                      : https://iffen-yu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "photo_yu.jpg" # filename of your profile photo placed in /assets/images/
   name             : "Yifeng Yu"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student in Statistics at Tsinghua University. Diffusion models, sampling theory, and efficient generative AI."
+  bio              : "Ph.D. student in Statistics at Tsinghua University. Diffusion models, diffusion language models, and inference optimization."
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   uri              : # URL
