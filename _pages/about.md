@@ -2,25 +2,49 @@
 permalink: /
 title: "About Me"
 author_profile: true
-redirect_from: 
+excerpt: "Yifeng Yu (俞译峰), Statistics Ph.D. student at Tsinghua University, working on diffusion models and efficient generative AI."
+redirect_from:
   - /about/
   - /about.html
 ---
-<!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads! -->
+**Hi, I am Yifeng Yu (俞译峰).**
 
-**Hi, I am Yifeng Yu.**
+I am a fifth-year **Ph.D. student in Statistics** in the Department of Mathematical Sciences at **Tsinghua University**. My research focuses on the mathematical foundations of **diffusion models**, connecting statistical sampling theory with efficient generative AI.
 
-I am currently a **PhD student** in Department of Mathematical Science at **Tsinghua University** and a **Research Associate** in Data Science at **City University of HongKong**. My research interest lies at the intersection of **Statistical Sampling** and  **Generative AI** .
+I study convergence analysis, accelerated sampling, and score estimation, including latent diffusion models and heavy-tailed target distributions. I also work on **diffusion language models**, **speculative decoding**, and **multimodal generation and inference acceleration**.
 
-Specifically, I am fascinated by the theoretical foundations of  **Score-based Diffusion Models** . My goal is to improve the convergence speed and sampling quality of these models through advanced mathematical tools.
+Alongside my research, I am an algorithm development intern with **Tencent Maps, CSIG**, through the Qingyun Program. Previously, I interned with the **AI Infrastructure R&D team at JD Technology / JD Cloud** and worked as a research assistant in the Department of Data Science at **City University of Hong Kong**.
 
-Recently, I have been working on the Wasserstein convergence analysis of score-based models, and I am excited to present our latest work at  **NeurIPS 2025** .
+[Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }}) · [Google Scholar]({{ site.author.googlescholar }}) · [Email](mailto:{{ site.author.email }})
 
-Beyond theory, I have extensive experience in  **Quantitative Finance** , applying Deep Learning models (like Transformers and GANs) to decrypt financial market dynamics during my internships at top-tier hedge funds.
+## Research Interests
 
-### News
+- **Foundations of diffusion models:** Wasserstein convergence, discretization error, score estimation, and the limits of latent representation reuse.
+- **Sampling algorithms:** second-order acceleration, constrained log-concave sampling, and heavy-tailed targets.
+- **Efficient generative AI:** diffusion LLM training and inference, speculative decoding, and accelerated multimodal generation.
 
-* **[Dec 2025]** I attended NeurIPS 2025 at San Diego!
-* **[Sep 2025]** I joined City University of Hong Kong as a Research Associate, my supervisor is Prof. Lu Yu.
+## Selected Publications
+
+- **[On the Limits of Latent Reuse in Diffusion Models]({{ '/publication/latent-reuse-diffusion-models/' | relative_url }})** — NeurIPS 2026. Error bounds for score learning with reused VAEs and low-dimensional compression, and dimension dependence when retraining the VAE.
+- **[Advancing Wasserstein Convergence Analysis of Score-Based Models: Insights from Discretization and Second-Order Acceleration]({{ '/publication/NeurIPS_Advancing_Wasserstein_Convergence_Analysis_of_Score_Based_Models__Insights_from_Discretization_and_Second_Order_Acceleration' | relative_url }})** — NeurIPS 2025. Wasserstein convergence analysis and a Hessian-based accelerated sampler.
+
+See [all publications and manuscripts under review]({{ '/publications/' | relative_url }}), including work on constrained sampling, heavy-tailed diffusion models, and speculative decoding.
+
+## Experience
+
+- **Jul. 2026–present · Tencent Maps, CSIG** — Algorithm Development Intern, Qingyun Program. Vector map reconstruction from vehicle camera images, parallel optimization, and post-training multimodal understanding and image editing models.
+- **Feb.–Jul. 2026 · JD Technology / JD Cloud** — Algorithm Development Intern, AI Infrastructure R&D. Diffusion LLM speculative decoding, sequential Monte Carlo methods, and feature prediction for faster FLUX inference.
+- **Sep. 2025–Feb. 2026 · City University of Hong Kong** — Research Assistant, Department of Data Science.
+- **Jan.–Jun. 2025 · City University of Hong Kong** — Visiting Ph.D. Student, supported by Tsinghua University's doctoral short-term overseas visiting fund.
+
+## Education
+
+- **Tsinghua University · Ph.D. in Statistics**, Sep. 2022–present.
+- **Tsinghua University · B.S. in Mathematics and Applied Mathematics**, Sep. 2018–Jul. 2022.
+
+## News
+
+- **Jul. 2026:** Joined Tencent Maps, CSIG, as an algorithm development intern through the Qingyun Program.
+- **Feb. 2026:** Joined JD Technology / JD Cloud's AI Infrastructure R&D team as an algorithm development intern.
+- **2025:** Received Tsinghua University's First-Class Comprehensive Scholarship.

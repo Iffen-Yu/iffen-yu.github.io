@@ -36,6 +36,8 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif page.collection == 'publications' and page.venue %}
+          <p>{{ page.publication_status | default: "Published in" }} <i>{{ page.venue }}</i>{% if page.publication_year %}, {{ page.publication_year }}{% elsif page.category != 'manuscripts' %}, {{ page.date | date: "%Y" }}{% endif %}</p>
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
@@ -67,6 +69,8 @@ layout: default
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+        {% elsif page.paperurl %}
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a></p>
         {% elsif page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.bibtexurl %}

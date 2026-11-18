@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Yifeng Yu / Personal Academic Website"
 title_separator          : "-"
 name                     : &name "Yifeng Yu"
-description              : &description "Yifeng Yu's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Yifeng Yu, Statistics Ph.D. student at Tsinghua University. Research in diffusion models, sampling theory, and efficient generative AI."
 url                      : https://iffen-yu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,11 +26,11 @@ author:
   avatar           : "photo_yu.jpg" # filename of your profile photo placed in /assets/images/
   name             : "Yifeng Yu"
   pronouns         : # example: "she/her"  
-  bio              : "I'm Yifeng Yu, a Ph.D. student at Tsinghua University. My research focuses on diffusion model."
+  bio              : "Ph.D. student in Statistics at Tsinghua University. Diffusion models, sampling theory, and efficient generative AI."
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   uri              : # URL
-  email            : "yyf22@mails.tsinghua.edu.cn" 
+  email            : "yuyf415@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "Iffen-Yu?tab=repositories"
+  github           : "Iffen-Yu"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -84,12 +84,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Manuscripts under Review'
+  books:
+    title: 'Books'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
